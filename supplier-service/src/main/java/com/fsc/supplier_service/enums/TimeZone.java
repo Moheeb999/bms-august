@@ -1,0 +1,24 @@
+package com.fsc.supplier_service.enums;
+
+public enum TimeZone {
+    UTC,
+    GMT,
+
+    ASIA_KOLKATA,
+    ASIA_DUBAI,
+    ASIA_SINGAPORE,
+    ASIA_TOKYO,
+    ASIA_SHANGHAI,
+
+    EUROPE_LONDON,
+    EUROPE_BERLIN,
+    EUROPE_PARIS,
+
+    AMERICA_NEW_YORK,
+    AMERICA_CHICAGO,
+    AMERICA_DENVER,
+    AMERICA_LOS_ANGELES,
+
+    AUSTRALIA_SYDNEY,
+    PACIFIC_AUCKLAND
+}
