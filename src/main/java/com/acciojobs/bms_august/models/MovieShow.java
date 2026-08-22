@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Table(name = "movie-shows")
 @Entity
-public class MoviewShow extends BookableExperience{
+public class MovieShow extends BookableExperience{
     @ManyToOne(optional = false)
     private Movie movie;
 

@@ -6,7 +6,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "live_events")
-public class LiveEvent {
+public class LiveEvent extends BookableExperience{
     @ManyToOne(optional = false)
     private Company organizerCompany;
 
