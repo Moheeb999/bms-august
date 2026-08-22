@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name="operations")
-public class Operations extends GlobalRecord{
+public class Operation extends GlobalRecord{
     private String operationName;
     private String operationCategory;
 }

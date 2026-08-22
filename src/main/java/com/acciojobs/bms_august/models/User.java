@@ -8,6 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 
 @NoArgsConstructor
@@ -44,4 +45,7 @@ public class User extends GlobalRecord{
     private boolean mobileVerified=false;
 
     private LocalDateTime lastLoginAt;
+
+    @ManyToMany
+    private List<Role> roles;
 }
